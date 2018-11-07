@@ -30,6 +30,9 @@ compileTestKotlin {
 }
 jar {
    manifest {
-      attributes 'Main-Class': 'forms.FormBuilderFun'
-     }  
-  }
+      attributes 'Main-Class': 'forms.FormBuilderFunKt'
+   }  
+   from {
+      configurations.compile.collect {it.isDirectory() ? it : zipTree(it) }
+   }
+}
