@@ -1,6 +1,7 @@
 buildscript {
     ext.kotlin_version = '1.3.0'
 
+
     repositories {
         mavenCentral()
     }
@@ -12,7 +13,10 @@ buildscript {
 apply plugin: 'kotlin'
 apply plugin: 'application'
 
+defaultTasks 'clean', 'build'
 mainClassName = "forms.FormBuilderFun"
+project.ext.targetDir="target"
+project.ext.hugoServerDir="src/main/resources/public"
 
 repositories {
     mavenCentral()
@@ -29,13 +33,15 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
+
+
 task buildPage(description: 'Builds page.',
         group: 'build',
         dependsOn: []) {
             doLast {
-                File rootDir = new File(".")
                 File hugoRootDir = new File("src/main/resources/")
-                File publishDir = new File("src/main/resources/public")
+                File hugoFormsDir = new File("src/main/resources/resources/forms")
+                File targetFormsDir = new File("target/forms")
                 File targetDir = new File("target")
 
                 exec {
@@ -44,8 +50,12 @@ task buildPage(description: 'Builds page.',
                 }
 
                 copy {
-                      from publishDir
+                      from hugoServerDir
                       into targetDir
+                }
+                copy {
+                      from hugoFormsDir
+                      into targetFormsDir
                 }
             }
         }
@@ -60,13 +70,15 @@ jar {
 }
 
 task runFinalJar(type: JavaExec){
+
+
      classpath = files('build/libs/lezecka-akademia.jar')
      main = 'forms.FormBuilderFunKt'
   }
 
+build.dependsOn.add("buildPage")
 build.dependsOn.add("runFinalJar")
 
-clean.doFirst {
-    delete "${rootDir}/target)"
-    printl "DELETED ${rootDir}/target)"
-  }
+clean.doFirst (){
+    delete "${targetDir}"
+}
