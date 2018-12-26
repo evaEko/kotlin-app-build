@@ -1,0 +1,169 @@
+.background {
+
+  position: fixed;
+  z-index: -1;
+  opacity: 0.17;
+}
+
+.chyt img {
+    
+    visibility: hidden;
+  }
+
+#chyt-xs{
+  position: absolute;
+  right: 0px;
+  width: 100%;
+  visibility: visible
+}
+
+
+
+@media (min-width:480px) {
+  
+  .chyt img {
+    visibility: visible
+    
+  }
+  #chyt-xs{
+    visibility: hidden;
+  }
+  
+}
+.chyt{
+  position: relative;
+  width:100%;
+  height:100%;
+}
+
+#chyt01i{
+  max-width: 50%;
+  position: relative;
+  top: 35px;
+  left: 20px;
+  transform: rotate(57deg);
+}
+#chyt02i{
+  max-width: 50%;
+  position: relative;
+  top: 60px;
+  left: 90px;
+}
+#chyt03i{
+  max-width: 8%;
+  transform: rotate(257deg);
+  position: relative;
+  top: 300px;
+  left: -180px;
+}
+#chyt04i{
+  max-width: 20%;
+  transform: rotate(37deg);
+  position: relative;
+  top: 0px;
+  left: 140px;
+}
+#chyt05i{
+  max-width: 30%;
+  transform: rotate(37deg);
+  position: relative;
+  top: 580px;
+  left: -400px;
+}
+#chyt06i{
+  max-width: 10%;
+  transform: rotate(-47deg);
+  position: relative;
+  top: 700px;
+  left: 70px;
+}
+#chyt07i{
+  transform: rotate(7deg);
+  position:relative;
+  top: 730px;
+  left: -300px;
+  max-height: 240px;
+}
+#chyt08i{
+  max-width: 30%;
+  transform: rotate(7deg);
+  position:relative;
+  top: 550px;
+  left: 600px;
+}
+#chyt09i{
+  transform: rotate(7deg);
+  position:relative;
+  top: 550px;
+  left: 600px;
+}
+#chyt10i{
+  transform: rotate(7deg);
+  position:relative;
+  top: 150px;
+  left: 400px;
+  min-width: 140px;
+}
+#chyt01{
+  min-width: 110px;
+  position: relative;
+  top: -20px;
+  transform: rotate(37deg);
+  padding: 25px;
+}
+#chyt02{
+  min-width: 250px;
+  transform: rotate(97deg);
+  position: relative;
+  top: 170px;
+  left: 0px;
+  padding: 25px;
+}
+#chyt03{
+  transform: rotate(-227deg);
+  position: relative;
+  top: 500px;
+  left: -400px;
+}
+#chyt04{
+  max-width: 20%;
+  transform: rotate(37deg);
+  position: relative;
+  top: 300px;
+  left: -360px;
+  padding: 25px;
+}
+#chyt05{
+  max-width: 30%;
+  transform: rotate(167deg);
+  position: relative;
+  top: 380px;
+  left: -380px;
+  padding: 25px;
+
+}
+#chyt06{
+  max-width: 10%;
+  transform: rotate(-97deg);
+  position: relative;
+  top: 320px;
+  left: -370px;
+  padding: 25px;
+}
+#chyt07{
+  max-width: 30%;
+  transform: rotate(97deg);
+  position:relative;
+  top: 380px;
+  left: -370px;
+  max-height: 5%;
+  padding: 25px;
+}
+#chyt08{
+  min-width: 5%;
+  transform: rotate(-67deg);
+  position:relative;
+  top: 390px;
+  left: -350px;
+  padding: 25px;
+}

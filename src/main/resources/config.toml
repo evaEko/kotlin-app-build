@@ -1,0 +1,57 @@
+baseurl = "/"
+title = "Lezecká akadémia"
+theme = "hugo-coder-portfolio"
+languageCode = "sk-sk"
+DefaultContentLanguage = "sk"
+defaultContentLanguageInSubdir = true
+
+[params]
+    author = "Lezecká akadémia"
+    description = "Sme jedným z najväčších a najúspešnejších lezeckých tímov na Slovensku. Zaoberáme sa najmä rozvojom športového lezenia detí a mládeže a organizujeme detské lezecké tréningy v najväčších lezeckých centrách na Slovensku, Vertigo a K2."
+    keywords = "lezenie, lezecke, kurzy, bratislava, slovensko, tábory, tabory"
+    avatarurl = "/img/logo.svg"
+    fixedbarContent = ""
+    fixedbarContentAfter = ""
+
+    hideCredits = true 
+    hideCopyright = false
+
+    snsShare = true
+
+    thumbnail = "/img/logo.svg"
+
+    # Custom CSS
+    custom_css = ["css/tajfun_hugo.css"]
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = "|"
+
+[[params.social]]
+
+[languages]
+    [languages.sk]
+        languagecode = "sk"
+        languagename = "Slovensky"
+        events = "Aktuality"
+        flag="sk_flag.svg"
+
+        [languages.sk.params]
+            description = "Sme jedným z najväčších a najúspešnejších lezeckých tímov na Slovensku. Zaoberáme sa najmä rozvojom športového lezenia detí a mládeže a organizujeme detské lezecké tréningy v najväčších lezeckých centrách na Slovensku, Vertigo a K2."
+            keywords = "lezenie, lezecke, kurzy, bratislava, slovensko, tábory, tabory"
+
+    [languages.en]
+        languagecode = "en"
+        languagename = "English"
+        events = "Events"
+        flag="us_flag.svg"
+
+        [languages.en.params]
+            description = "We organize climbing trainings and competitions for youngsters."
+            keywords = "sport climbing courses, sport climbing, belay courses, belay, climbing traings"
+
+        [languages.en.menu] 

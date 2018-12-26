@@ -5,7 +5,7 @@ fun main(args : Array<String>){
   val src = root + "src/main/resources/resources/forms/simple/"
   val target = root + "target/forms/simple/"
   
-    //list of php files to generate:
+    //get list of php files with forms to generate (will get header and footer):
   val files = arrayOf("simple_application.php", "zoznam.php", "submit_confirmation.php")
   val filesSrcAndTarget = HashMap<String, String>()
 

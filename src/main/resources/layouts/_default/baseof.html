@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {{ with .Site.Params.author }}
+  <meta name="author" content="{{ . }}">{{ end }}
+  <meta name="description" content="{{ if .IsPage }}{{ .Site.BaseURL }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  {{ with .Site.Params.keywords }}
+  <meta name="keywords" content="{{ . }}">{{ end }}
+
+  <base href="{{ .Site.BaseURL }}">
+  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/brands.css" integrity="sha384-QT2Z8ljl3UupqMtQNmPyhSPO/d5qbrzWmFxJqmY7tqoTuT2YrQLEqzvVOP2cT5XW" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/fontawesome.css" integrity="sha384-u5J7JghGz0qUrmEsWzBQkfvc8nK3fUT7DCaQzNQ+q4oEXhGSx+P2OqjWsfIRB8QT" crossorigin="anonymous">
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet'>
+  <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  <link rel="stylesheet" href="{{ "css/style.min.css" | absURL }}">
+
+  {{ range .Site.Params.custom_css }}
+  <link rel="stylesheet" href="{{ . | absURL }}">
+  {{ end }}
+
+  <link rel="icon" type="image/png" href="{{ "img/logo.svg" | absURL }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ "img/logo.svg" | absURL }}" sizes="16x16">
+
+  {{ .Hugo.Generator }}
+  <link rel="icon" href="{{ .Site.BaseURL }}favicon.png?v=3" />
+
+</head>
+{{ if .Page.IsHome }}
+   {{ partial "cookieconsent.html" . }}
+{{ end }}
+<body>
+  <input type="hidden" id="refresh" value="no">
+  {{ partial "background.html" . }}
+  <main class="wrapper">
+    {{ partial "header.html" . }}
+
+    <div class="content" id="content">
+      {{ block "content" . }}{{ end }}
+    </div>
+    {{ if or (.Site.Params.fixedbarContent) (.Site.Params.snsShare)}}
+      {{ partial "footer.html" . }}
+    {{ end }}
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="{{ "js/app.js" | absURL }}"></script>
+  <script src="{{ "js/navtoggle.js" | absURL }}"></script>
+  {{ with .Site.Params.fixedbarContentAfter }}
+  {{ end }}
+  {{ if eq .Params.tabs 1 }}
+    <script src="{{ "js/tabscript.js" | absURL }}"></script>
+  {{ end }}
+  {{ if eq .Params.popup 1 }} 
+    <script src="{{ "js/popup.js" | absURL }}"></script>
+  {{ end }}
+</body>
+
+</html>

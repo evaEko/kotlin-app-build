@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Authentication Needed"
+#AuthUserFile "/lezecka-akademia.sk/sub/test/.htpasswd"
+#AuthUserFile "/var/www/html/.htpasswd"
+AuthUserFile /data/web/lezecka-akademia.sk/sub/test/.htpasswd 
+require valid-user

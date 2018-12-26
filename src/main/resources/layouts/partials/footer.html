@@ -1,0 +1,18 @@
+<footer class="footer">
+  <section class="container">
+      <div>
+        <a id="yout" class="fb btn sns-share fb-share" href="https://www.youtube.com/channel/UCvnmDSoicy-D4OjMB4omWSw">
+          <i class="fab fa-youtube-square"></i>
+        </a>
+        <a id="faceb" class="fb btn sns-share fb-share" href="https://www.facebook.com/Lezeck%C3%A1-akad%C3%A9mia-191614667580499}">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+
+      </div>
+    {{ with .Site.Params.footercontent }}
+      <p>{{.}}</p>
+    {{ end }}
+    Lezecká akadémia © {{ .Site.LastChange.Format "2006" }}
+
+  </section>
+</footer>

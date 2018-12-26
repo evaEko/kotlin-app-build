@@ -6,7 +6,7 @@ import java.nio.charset.Charset
 
 class PhpFileAssembler {
 
-
+  //file used to get the header and footer for php forms:
   private val indexFile: String = "/home/eko/repos/lezecka-akademia/target/sk/about/index.html"
 
   fun createPhpFile(contentFile: String, outputFile: String) {

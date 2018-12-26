@@ -1,0 +1,14 @@
+TODO NOW: move forms generation to another task
+make forms build conditional
+make a deployTest and deployLive task for gradle
+create registration fail page (it is not styled currently)
+
+beautify kotlin code
+in application, close popup when the user downloads the application
+>>> TEST: cleanup my baseof
+minimize html amount in mds
+optimize loading of other external js and css stuff
+adapt menu on mobile to the screen-size
+>>>adjust the red underlyining of youtube and facebbook icon
+move hamburger to the bottom
+fix weird addresses in images of the gallery

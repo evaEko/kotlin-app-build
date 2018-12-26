@@ -1,7 +1,16 @@
+//THIS WORKS if you run
+// to include forms:
+// ./gradlew buildPage;
+// ./gradlew copyForms;
+// ./gradlew runFinalJar
+// to exclude forms:
+// ./gradlew buildPage;
+// manually remove forms from target/forms
+// make sure the sk/index.html en/index.html
+//dont contain any links to forms.
+
 buildscript {
     ext.kotlin_version = '1.3.0'
-
-
     repositories {
         mavenCentral()
     }
@@ -13,19 +22,16 @@ buildscript {
 apply plugin: 'kotlin'
 apply plugin: 'application'
 
-defaultTasks 'clean', 'build'
+//defaultTasks 'build'
 mainClassName = "forms.FormBuilderFun"
 project.ext.targetDir="target"
-project.ext.hugoServerDir="src/main/resources/public"
 
 repositories {
     mavenCentral()
 }
-
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }
-
 compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
@@ -35,14 +41,12 @@ compileTestKotlin {
 
 
 
-task buildPage(description: 'Builds page.',
-        group: 'build',
-        dependsOn: []) {
+task buildPage(description: 'Builds page.') {
             doLast {
                 File hugoRootDir = new File("src/main/resources/")
-                File hugoFormsDir = new File("src/main/resources/resources/forms")
-                File targetFormsDir = new File("target/forms")
+
                 File targetDir = new File("target")
+                File hugoServerDir = new File("src/main/resources/public")
 
                 exec {
                   workingDir hugoRootDir
@@ -52,10 +56,6 @@ task buildPage(description: 'Builds page.',
                 copy {
                       from hugoServerDir
                       into targetDir
-                }
-                copy {
-                      from hugoFormsDir
-                      into targetFormsDir
                 }
             }
         }
@@ -69,15 +69,29 @@ jar {
    }
 }
 
+task copyForms( description: 'Copies form dir from public.', dependsOn: [] ){
+
+    File hugoFormsDir = new File("src/main/resources/resources/forms")
+    File targetFormsDir = new File("target/forms")
+
+
+    copy {
+        from hugoFormsDir
+        into targetFormsDir
+    }
+
+}
+
 task runFinalJar(type: JavaExec){
 
-
-     classpath = files('build/libs/lezecka-akademia.jar')
+     classpath = files('build/libs/la-page.jar')
      main = 'forms.FormBuilderFunKt'
   }
 
-build.dependsOn.add("buildPage")
-build.dependsOn.add("runFinalJar")
+
+//build.dependsOn.add("buildPage")
+//build.dependsOn.add("copyForms")
+//build.dependsOn.add("runFinalJar")
 
 clean.doFirst (){
     delete "${targetDir}"
