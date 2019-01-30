@@ -5,35 +5,43 @@ draft: false
 menu: "main"
 slug: "rules"
 ---
+# Prihláška a účasť
+1.1 Do kurzu sa prihlasuje zaslaním prihlášky na adresu lezeckaakademia@gmail.com. Prihláška sa stáva platnou jej odoslaním a nadobúda účinnosť až po uhradení kurzového príspevku, ďalej *kurzovné*. Zaplatenie kurzovného sa realizuje bankovým prevodom na účet Lezeckej akadémie, IBAN SK5111000000002928862109. Bez schválania vyplnenej prihlášky vedením Lezeckej akadémie nesmie inštruktor prijať dieťa na tréning.
+Kurzovné vypočíta prihláška po vyplnení. Z vypočítanej sumy je možné odrátať odhlásené tréningy, pokiaľ sú splnené body 2.2 a 2.3.
 
-# Pravidlá
+1.2 V platbe uveďte do poznámky meno a priezvisko dieťaťa v tvare MENO PRIEZVISKO. Platbu je potrebné zrealizovať do 5 pracovných dní od odoslania prihlášky, inak nebude prihláška akceptovaná.
 
-Prosíme všetkých členov a ich zákonných zástupov, aby si pozorne prečítali pravidlá. Pomôžete predísť nedorozumeniam a prípadným nepríjemnostiam.
+# Vymeškanie tréningov
 
-## Dochádzka
+2.1 Za vymeškané tréningy je zodpovený účastník a nemá právo na náhradu či vrátenie kurzovného ani jeho časti.
 
-* Bez schválenia vyplnenej prihlášky vedením Lezeckej akadémie nie je inštruktor povinný prijať dieťa na tréning.
-* V čase začiatku tréningu má byť dieťa prezlečené a nachystané na rozcvičku, pričom čaká na začiatok tréningu na lavičke v prednej časti lezeckého centra.
-* 10 min po skončení tréningu je účastník kurzu povinný odovzdať kľúčik na recepcii lezeckého centra. V prípade nevrátenia alebo straty kľúčika od skrinky je účastník povinný zaplatiť poplatok podľa platného cenníka lezeckého centra.
-* Ak musí dieťa odísť z tréningu pred jeho skončením, je rodič povinný túto skutočnosť hlásiť u trénera na začiatku tréningu.
-* Do skupiny mierne pokročilých môže byť dieťa zaradené pokiaľ dosiahlo vek 12 rokov alebo, ak vie dieťa istiť druholezca, 10 rokov. Skupina pokročilých je na pozvanie, po dohode trénerov: Patria do nej deti, ktoré chcú aktívne trénovať, zúčastňovať sa pretekov *Slovenského pohára mládeže* a vedia istiť prvolezca.
-* Dieťa prihlásené na kurz môže istiť iné dieťa, ktoré sa naučilo istiť pod dohľadom inštruktorov Lezeckej akadémie, prípadne môže byť dieťa istené pomocnými inštruktormi Lezeckej akadémie, ktorí ešte nedovŕšili vek 18 rokov.
+2.2 V prípade dlhodobého vymeškania zo zdravotných dôvodov, teda, ochorenia alebo úrazu, či odcestovania, má účastník nárok na vrátenie príslušného kurzovného v adekvátnej výške iba v prípade, že túto skutočnosť oznámi minimálne 24 hodín pred začatím prvého vymeškaného tréningu.
 
-## Vymeškané tréningy
+2.3 Plánovane vymeškané tréningy môžete odrátať z platenej sumy vypočítanej v prihláške pre daný polrok. V takom prípade je nevyhnutné v prihláške uviesť dátum neúčasti.
 
-* Vymeškané tréningy nie je možné nahradiť či kompenzovať iným tréningom.
-* V prípade dlhodobého vymeškania (2 týždne a viac) z dôvodu choroby, úrazu, nečakaného odcestovania alebo iného dôvodu má učastník nárok na vrátenie peňazí za vymeškané tréningy v prípade, že toto vymeškanie bolo nahlásené najneskôr 24 hodín pred začatím prvého vymeškaného tréningu.
-* V prípade že viete o vymeškaní tréningu ešte pred začatím kurzu, je možné si tento tréning odrátať z platenej sumy, ak túto skutočnosť uvediete do prihlášky.
+# Pokyny pre účastníka kurzu
 
-## Platby
+3.1 Účastník tréningu ma povolený vstup do lezeckého centra najskôr 15 minút pred začiatkom tréningu, pričom po prezlečení čaká na inštruktora na lavičke pre recepciou lezeckého centra. Po skončení tréningu je povinný centru do 15 minút opustiť.
 
-Tréningy treba uhradiť do začiatku prvého tréningu vopred za celý polrok na [účet Lezeckej akadémie](/sk/contact).
+3.2 V prípade omeškania dlhšieho než 10 minút stráca účastník nárok na účasť na tréningu, keďže neskoré príchody narúšajú chod tréningu.
 
-Sumu vyráta prihláška po zadaní treningových dní. Z vypočítanej sumy je možné odrátať poplatok za vymeškané tréningy avšak len v prípade splnenia bodu o plánovanom vymeškaní tréningov.
+3.3 V prípade nevrátenia alebo straty kľúča od skrinky je účastník povinný uhradiť populatok podľa cenníka lezeckého centra.
 
-## Ďalšie informácie
+3.4 Ak účastník potrebuje opustiť tréning pred jeho oficiálnym skončením, je zákonný zástupca povinný hlásiť túto skutočnosť u trénera pred začatím tréingu.
 
-* Cez zimný trimester je vhodné nosiť na tréning dlhé nohavice a tričko s dlhým rukávom alebo na tričko s krátkym rukávom a mikinu. V hale je chladnejšie a je spustené vetranie.
-* Odporúčame nosiť si na tréning nápoj (najlepšie fľašu čistej vody). Prosíme, nenoste na tréning jedlo, konzumácia počas tréningu narúša chod tréningu.
-* Je vhodnejšie, ak rodič nie je počas treningu prítomný.
-* Prosíme rodičov, ktorí si prídu vyzdvihnúť svoje ratolesti po tréningu, aby na dieťa počkali v prednej časti lezeckého centra. Ak treba dieťaťu pomôcť pri prezliekaní, prosíme, vyzujte sa pri vstupe do lezeckého centra. Ďakujeme.
+3.5 Skupinu mierne pokročilých môže navštevovať iba dieťa, ktoré dovŕšilo vek 12 rokov alebo dieťa, ktoré dovŕšilo vek 10 rokov, ktoré vie istiť druholezca po preradení inštruktorom. Skupina "Repre" je na pozvanie po dohode medzi trenérmi. Je určená pre deti, ktoré chcú aktívne trénovať, zúčastňovať sa pretekov Slovenského pohára mládeže a vedia istiť prvolezca.
+
+3.6 Zákonný zástupca prihlasovaného dieťaťa súhlasí s tým, že dieťa bude istené iným účastníkom kurzu, dieťaťom, ktoré nedovŕšilo vek 18 rokov a absolvovalo niekoľko-tréningový kurz istenia a absolvovalo záverečnú skúšku istenia pod dohľadom inštruktora Lezeckej akadémie.
+
+# Súhlas dotknutej osoby
+
+4.1 V zmysle § 7 zákona č.428/2002 Z. z. o ochrane osobných údajov v znení neskorších predpisov súhlasi dotknutá osoba (účastník kurzu resp. jeho zákonný zástupca) so spracovaním osobných údajov účastníka výhradne pre interné účely organizátora. Dotknutá osoba taktiež súhlasí s prípadným použitím fotografii a videozáznamov, kde je vyobrazená, a to bez nároku na honorár. Organizátor sa zaväzuje používať záznamy účastníka výhradne spôsobom neznižujúcim dôstojnosť a dobré meno účastníka, a to výhradne len v súvislosti s prezentáciou svojej činnosti.
+
+# Zodpovednosť trénera za neplnoletého účastníka
+
+5.1 Zodpovednosť trénera za neplnoletého účastníka kurzu vzniká od času určeného ako začiatok tréningovej jednotky, ak je účastník prítomný v telocvični. Ak účastník opustí priestor telocvične, zodpovednosť prechádza na zákonného zástupcu.
+
+# Prítomnosť rodičov a doprevádzajúcich osôb v telocvični
+
+Účasť zákonných zástupcov alebo iných osôb na kurze ako divákov je možná iba v prvú hodinu začatia kurzu alebo po uhradení vstupu do lezeckého centra podľa platného cenníka. Účasť tretích osôb na tréningu môže pôsobiť na účastníka ako aj na ostatných účastníkov rušivo a následne negatívne ovplyvňovať ich výkona a sťažovať prácu trénerom. Zákonný zástupca týmto berie tieto skutočnosti na vedomie. 
+

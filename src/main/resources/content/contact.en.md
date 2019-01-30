@@ -16,7 +16,7 @@ Kollárova 4
 
 Modra 900 01
 
-office.lezeckaakademia@gmail.com
+{{% email %}}
 
 +421 917 978 476
 

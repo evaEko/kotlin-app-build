@@ -8,5 +8,8 @@ layout: "single"
 {{% centre %}}
 # Akcie, preteky, oznamy
 
-* [Sústredenie 10-11.11. v La Skala](/sk/events/laskala)
+<!--* [Sústredenie 10-11.11. v La Skala](/sk/events/laskala)-->
+* [Pozvánka na sústredenie V4 2018](/sk/events/v4camp2019)
+<!--* [Sumár roku 2018](/sk/events/summary)-->
+* [Nové prihlášky](/sk/application)
 {{% /centre %}}
