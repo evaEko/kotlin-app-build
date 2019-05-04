@@ -10,11 +10,9 @@ menu: "main"
 
 {{% centre %}}
 
-**Lezecká akadémia**
+<b>Lezecká akadémia</b><br />
 
-Kollárova 4
-
-Modra 900 01
+Kollárova 4, Modra 900 01
 
 {{% email %}}
 
